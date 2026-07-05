@@ -11,7 +11,7 @@ Krea 2 - an image generation model from [Krea AI](https://www.krea.ai).
 <a href="https://www.krea.ai/blog/krea-2-technical-report">Technical Blog</a>
 </p>
 
-This is Pinokio repository for the open version of Krea 2, an image model trained from scratch focused on creative and stylistic exploration. The repository contains inference code and instructions to run the model.
+This is a Pinokio repository for the open version of Krea 2, an image model trained from scratch focused on creative and stylistic exploration. The repository contains inference code and instructions to run the model.
 
 Krea 2 is the most aesthetic open-source image model available. On quality, Krea 2 is the #1 text-to-image model from an independent lab on Artificial Analysis.
 
