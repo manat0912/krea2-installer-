@@ -54,24 +54,24 @@ module.exports = {
         "token": "False"
       }
     },
-    // Step 6: User-requested model download 1 (FasterLivePortrait via Python CLI)
-    {
-      method: "shell.run",
-      params: {
-        venv: "env",
-        path: "app",
-        message: [
-          "python -c \"from huggingface_hub import snapshot_download; snapshot_download('warmshao/FasterLivePortrait', local_dir='./checkpoints', token=False)\""
-        ]
-      }
-    },
-    // Step 7: User-requested model download 2 (qwen-image-edit-rapid-aio-sfw-v23 via hf.download)
+    // Step 6: Download Text Encoder (qwen3vl_4b_fp8_scaled.safetensors from Comfy-Org)
     {
       method: "hf.download",
       params: {
         path: "app",
-        "_": [ "IllyaS08/qwen-image-edit-rapid-aio-sfw-v23" ],
-        "repo-type": "space",
+        "_": [ "Comfy-Org/Krea-2" ],
+        "include": [ "text_encoders/qwen3vl_4b_fp8_scaled.safetensors" ],
+        "local-dir": "checkpoints",
+        "token": "False"
+      }
+    },
+    // Step 7: Download VAE (qwen_image_vae.safetensors from Comfy-Org)
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "Comfy-Org/Krea-2" ],
+        "include": [ "vae/qwen_image_vae.safetensors" ],
         "local-dir": "checkpoints",
         "token": "False"
       }
