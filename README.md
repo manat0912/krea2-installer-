@@ -11,13 +11,9 @@ Krea 2 - an image generation model from [Krea AI](https://www.krea.ai).
 <a href="https://www.krea.ai/blog/krea-2-technical-report">Technical Blog</a>
 </p>
 
-<img src="assets/big.png" alt="k2 banner">
+This is Pinokio repository for the open version of Krea 2, an image model trained from scratch focused on creative and stylistic exploration. The repository contains inference code and instructions to run the model.
 
-<img src="assets/k2.png" alt="k2 banner">
-
-This is the official repository for the open version of Krea 2, an image model trained from scratch focused on creative and stylistic exploration. The repository contains inference code and instructions to run the model.
-
-Krea 2 is the most aesthetic open-source image model available. On quality, Krea 2 is the #1 text-to-image model from an independent lab on Artificial Analysis [\[1\]](https://artificialanalysis.ai/image/leaderboard/text-to-image).
+Krea 2 is the most aesthetic open-source image model available. On quality, Krea 2 is the #1 text-to-image model from an independent lab on Artificial Analysis.
 
 Krea 2 ships as two models. Krea 2 RAW is the base model. It's a pretrained checkpoint with no distillation, so it's diverse and highly malleable, and it's what you should use for fine-tuning, post-training, and LoRA training. Krea 2 Turbo is an 8-step distilled checkpoint built for fast, high-quality text-to-image.
 
