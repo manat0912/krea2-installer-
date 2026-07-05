@@ -75,6 +75,88 @@ module.exports = {
         "local-dir": "checkpoints",
         "token": "False"
       }
+    },
+    // Step 8: Download Krea-2 LoRAs
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "krea/Krea-2-LoRA-darkbrush" ],
+        "local-dir": "checkpoints/loras/darkbrush",
+        "token": "False"
+      }
+    },
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "krea/Krea-2-LoRA-dotmatrix" ],
+        "local-dir": "checkpoints/loras/dotmatrix",
+        "token": "False"
+      }
+    },
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "krea/Krea-2-LoRA-kidsdrawing" ],
+        "local-dir": "checkpoints/loras/kidsdrawing",
+        "token": "False"
+      }
+    },
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "krea/Krea-2-LoRA-neondrip" ],
+        "local-dir": "checkpoints/loras/neondrip",
+        "token": "False"
+      }
+    },
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "krea/Krea-2-LoRA-rainywindow" ],
+        "local-dir": "checkpoints/loras/rainywindow",
+        "token": "False"
+      }
+    },
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "krea/Krea-2-LoRA-retroanime" ],
+        "local-dir": "checkpoints/loras/retroanime",
+        "token": "False"
+      }
+    },
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "krea/Krea-2-LoRA-softwatercolor" ],
+        "local-dir": "checkpoints/loras/softwatercolor",
+        "token": "False"
+      }
+    },
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "krea/Krea-2-LoRA-sunsetblur" ],
+        "local-dir": "checkpoints/loras/sunsetblur",
+        "token": "False"
+      }
+    },
+    {
+      method: "hf.download",
+      params: {
+        path: "app",
+        "_": [ "krea/Krea-2-LoRA-vintagetarot" ],
+        "local-dir": "checkpoints/loras/vintagetarot",
+        "token": "False"
+      }
     }
   ]
 }
