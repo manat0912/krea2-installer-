@@ -17,6 +17,7 @@ module.exports = {
         path: "app",
         message: [
           "uv pip install gradio devicetorch huggingface_hub",
+          "uv pip install accelerate"
           "uv pip install -r requirements.txt"
         ]
       }
